@@ -1,6 +1,8 @@
 h1 {
     background-color: aqua;
-    display: inline;     
+    display: block; 
+    height: 50px;
+    width: 400px;    
 }
 
 h2{
@@ -15,4 +17,15 @@ p{
 
 ul{
     background-color: darkgreen;
+}
+
+img{
+    display: flex;
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px
+}
+
+a{
+    display: block;
 }
