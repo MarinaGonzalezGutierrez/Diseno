@@ -1,0 +1,19 @@
+ESTRUCTURA PRINCIPAL:
+<header>
+<nav>
+<main>
+<section>
+<article>
+<aside>
+<div>
+<footer>
+
+
+/////////////////////
+Maquetacion 1: <header> y <main>
+Maquetacion 2: <header> <main> <footer>
+Maquetacion 3: <header> <main> <section> <article> <footer>
+Maquetacion 4: <header> <main>, <section> o <aside> <footer>
+Maquetacion 5: <header> <main> <footer>, <aside> o <section>
+Maquetacion 6: <header> <main> <section> <aside> <footer>  
+Maquetacion 7: (<header: <section> <aside> <aside> <nav>) / (<main>:<section> <section> <section>)

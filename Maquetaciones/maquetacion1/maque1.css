@@ -1,0 +1,9 @@
+header{
+    background-color: #6c3483;
+}
+
+main{
+    background-color: red;
+    display: block;
+    padding: 100%;
+}
