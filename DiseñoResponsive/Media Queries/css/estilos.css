@@ -7,6 +7,14 @@
   width: 90%;
 }
 
+/*
+.container: Selecciona cualquier elemento con la clase container.
+>: El símbolo > es un selector de hijo directo, lo que significa que aplica estilos solo a los elementos que son hijos directos de .container.
+*: El asterisco * es un selector universal que selecciona todos los elementos dentro de .container, sin importar el tipo de etiqueta (pueden ser div, p, h1, etc.).
+height: 150px: Establece que la altura de los elementos seleccionados será de 150 píxeles.
+
+*/
+
 .container > * {
   height: 150px;
 }
@@ -29,6 +37,15 @@ header {
   background-color: green;
 }
 
+.violet {
+  background-color: violet;
+}
+
+.black {
+  background-color: black;
+  height: 75px;
+}
+
 @media screen and (min-width: 576px) {
   .red,
   .blue {
@@ -36,7 +53,12 @@ header {
     width: 50%;
   }
 
-  .green {
+  .green, .violet {
+    float: left;
+    width: 50%;
+  }
+
+  .black{
     float: left;
     width: 100%;
   }
@@ -48,6 +70,12 @@ header {
   .green {
     float: left;
     width: 33.33%;
+  }
+
+  .violet, .black{
+    float:left;
+    width: 50%;
+    height:75px;
   }
 }
 
