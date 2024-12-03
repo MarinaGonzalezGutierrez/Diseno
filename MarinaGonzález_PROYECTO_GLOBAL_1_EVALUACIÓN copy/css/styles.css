@@ -178,6 +178,8 @@ header nav ul li span{
   color: transparent; 
 }
 
+
+/* MERCH */
 .ropa-container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -196,4 +198,6 @@ header nav ul li span{
     color: transparent; 
   
 }
+
+/* CARRUSEL DE IMAGENES */
 
