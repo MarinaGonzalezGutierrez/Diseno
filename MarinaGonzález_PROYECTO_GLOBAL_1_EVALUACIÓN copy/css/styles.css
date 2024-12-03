@@ -39,7 +39,7 @@ header{
     align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     z-index: 1000;
-    backdrop-filter: blur(8px); /* Aplica un desenfoque al fondo */
+    backdrop-filter: blur(8px); /* plica un desenfoque al fondo */
     background: rgba(255, 255, 255, 0.4); /*Fondo semi-transparente */
     transition: backdrop-filter 0.3s ease-in-out;
 }
@@ -253,4 +253,11 @@ header nav ul li span{
 
 
 /* Diseño responsive pa adaptar */
-@media
+@media screen and (min-width: 576) {
+  header{
+    .background_boombo {
+      height: 100vh;
+      background-position: center top;
+  }
+  }
+}
