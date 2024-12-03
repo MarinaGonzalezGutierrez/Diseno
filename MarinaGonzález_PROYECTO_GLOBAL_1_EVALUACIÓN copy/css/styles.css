@@ -17,7 +17,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
   display: grid;
-  grid-template-rows:repeat(3, 100vh) ;
+  grid-template-rows:repeat(4, 100vh) ;
     
 }
   
@@ -111,12 +111,17 @@ header nav ul li span{
   font-size: 1.1rem;
   line-height: 1.5;
   color: #444;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 7px;
+  
+  
 }
 
 .line-up-info{
   flex: 1;
   padding: 20px;
-  text-align: right;
+  /* Cambio */
+  text-align: center;
 }
 
 .line-up-info h3{
