@@ -63,58 +63,137 @@
             </div>
             <div id="merch" class="section">
                 <h3>MERCH</h3>
-                <div class="carrusel-container">  
-                    <img
-                      class="merch1"
-                      src="imagenes_video/merch1.jpg"
-                    />
-                    <img
-                      class="merch2"
-                      src="imagenes_video/merch2.jpg"
-                    />
-                    <img
-                      class="merch3"
-                      src="imagenes_video/merch3.jpg"
-                    />
-
-                    <img
-                      class="merch4"
-                      src="imagenes_video/merch4.jpg"
-                    />
-                  </div>  
+                <div class="catalogo-container">  
+                    <!-- Producto 1 -->
+                    <div class="producto-card">
+                        <img src="./imagenes_video/Merch/producto-1.webp" alt="Producto 1">
+                        <div class="info-producto">
+                            <h4>Producto 1</h4>
+                            <p class="precio">
+                                <span class="precio-antiguo">99,90 €</span>
+                                <span class="precio-actual">79,90 €</span>
+                            </p>
+                            <button class="btn-comprar">Comprar</button>
+                        </div>
+                    </div>
+                    <!-- Producto 2 -->
+                    <div class="producto-card">
+                        <img src="./imagenes_video/Merch/producto-2.webp" alt="Producto 2">
+                        <div class="info-producto">
+                            <h4>Producto 2</h4>
+                            <p class="precio">
+                                <span class="precio-actual">49,90 €</span>
+                            </p>
+                            <button class="btn-comprar">Comprar</button>
+                        </div>
+                    </div>
+                    <!-- Producto 3 -->
+                    <div class="producto-card">
+                        <img src="./imagenes_video/Merch/Producto-3.png" alt="Producto 3">
+                        <div class="info-producto">
+                            <h4>Producto 3</h4>
+                            <p class="precio">
+                                <span class="precio-antiguo">69,90 €</span>
+                                <span class="precio-actual">59,90 €</span>
+                            </p>
+                            <button class="btn-comprar">Comprar</button>
+                        </div>
+                    </div>
+                    <!-- Producto 4 -->
+                    <div class="producto-card">
+                        <img src="./imagenes_video/Merch/Producto-4.png" alt="Producto 4">
+                        <div class="info-producto">
+                            <h4>Producto 4</h4>
+                            <p class="precio">
+                                <span class="precio-actual">39,90 €</span>
+                            </p>
+                            <button class="btn-comprar">Comprar</button>
+                        </div>
+                    </div>
+                    <!-- Producto 5 -->
+                    <div class="producto-card">
+                        <img src="./imagenes_video/Merch/producto-5.webp" alt="Producto 5">
+                        <div class="info-producto">
+                            <h4>Producto 5</h4>
+                            <p class="precio">
+                                <span class="precio-actual">29,90 €</span>
+                            </p>
+                            <button class="btn-comprar">Comprar</button>
+                        </div>
+                    </div>
+                </div>  
               
             </div>
 
             <!-- VIDEOS Y LA PLAYLIST DEL RIVERLAND -->
-             <div class="extraContent-titulo">
+            <div id="extra-content" class="section">
                 <h3>EXTRA CONTENT</h3>
-             </div>
-             
-            <div id="extraContent-container" class="section">
-                
-                <div class="video-container">
-                <!-- <video src="imagenes_video/aftermovie.mp4" width="740" height="460" autoplay></video> -->
-                 <video controls muted loop autoplay>
-                    <source src="imagenes_video/aftermovie.mp4" type="video/mp4">
-                 </video>
-                </div>
+                <div class="container">
+                    <!-- Video and Spotify iframe container -->
+                    <div class="media-container">
+                        <video class="background-video" autoplay loop muted>
+                            <source src="imagenes_video/aftermovie.mp4" type="video/mp4">
+                        </video>
             
-                  <div class="playlist">
-                    
-                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7IdfFMr5LrltUqgTO92Mkp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <div class="spotify-container">
+                            <iframe src="https://open.spotify.com/embed/playlist/7IdfFMr5LrltUqgTO92Mkp?utm_source=generator" frameborder="0" allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+            
+                    <!-- Price Cards -->
+                    <div class="precio-entradas">
+                        <div class="precio-card">
+                            <h4>ABONO GENERAL - PROMO 1</h4>
+                            <p class="precio"><del>69,90€</del> 64,90€</p>
+                            <input type="number" value="1" min="1" />
+                            <button>Comprar</button>
+                        </div>
+            
+                        <div class="precio-card">
+                            <h4>ABONO GENERAL - PROMO 2</h4>
+                            <p class="precio"><del>72,90€</del> 67,90€</p>
+                            <input type="number" value="1" min="1" />
+                            <button>Comprar</button>
+                        </div>
+            
+                        <div class="precio-card">
+                            <h4>ABONO GENERAL - PROMO 3</h4>
+                            <p class="precio"><del>74,90€</del> 69,90€</p>
+                            <input type="number" value="1" min="1" />
+                            <button>Comprar</button>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="precioEntradas">
-                    <img src="imagenes_video/entradasPrecios.jpg" alt="precioEntradas">
-                </div>
-            </div> 
-        </div>
+            </div>
     </main>
 
-    <footer>
-        <!-- <p>@Marina</p> -->
-    </footer>
-
     
+    
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Riverland Fest</h3>
+                <p>&copy; 2025 Todos los derechos reservados</p>
+            </div>
+            <div class="footer-middle">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Entradas</a></li>
+                    <li><a href="#">Line-up</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h4>Síguenos en</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><img src="imagenes_video/icons-svg/facebook-icon.svg" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src="imagenes_video/icons-svg/twitter-icon.svg" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="imagenes_video/icons-svg/insta-icon.svg" alt="Instagram"></a>
+                    <a href="#" class="social-icon"><img src="imagenes_video/icons-svg/yt-icon.svg" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
