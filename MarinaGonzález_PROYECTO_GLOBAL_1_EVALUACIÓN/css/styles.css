@@ -208,6 +208,11 @@
     padding: 50px 20px;
     text-align: center;
   }
+
+  #merch h3{
+    /* margen del titulo con el merch */
+    margin-bottom: 26px;
+  }
   .catalogo-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
