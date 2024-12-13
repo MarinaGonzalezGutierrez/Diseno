@@ -577,6 +577,11 @@ color: transparent;
     text-align: center;
   }
 
+  header nav{
+    display: none;
+    /* para cuando reduzca la pantalla desaparezca el nav */
+  }
+
   .galeria-img {
     height: auto; /* Ajusta altura automáticamente */
     object-fit: contain; /* Mantén toda la imagen visible */
@@ -652,5 +657,9 @@ box-sizing: border-box;
 
   .redes-container, #extra-content {
     box-sizing: border-box; /* Evitar desbordes debido a padding/márgenes */
+  }
+
+  .imagenFondoPrincipio{
+   box-sizing: border-box;
   }
 }
