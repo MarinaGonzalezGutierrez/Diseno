@@ -1,0 +1,5 @@
+.encabezado text-primary{
+    color: green;
+}
+
+/* no se cambia porque tiene priridad el bootstrap sobre el css */
