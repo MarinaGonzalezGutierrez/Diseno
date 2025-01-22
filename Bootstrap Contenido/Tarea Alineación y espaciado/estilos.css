@@ -1,14 +1,7 @@
-.container-md {
-    background-color: red;
-    color:white;
-    height:600px;
-    text-align: center;
+.container {
+    height:550px;
 }
-h1 {
-    color:blueviolet;
-}
-.text-orange {
-    color: orange;
-    /* color: var(--bs-orange); */
-    /*usando variable predefinidas en bs*/
+
+.row {
+    height:100px; 
 }
