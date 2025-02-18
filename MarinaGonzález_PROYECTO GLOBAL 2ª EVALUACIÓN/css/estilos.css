@@ -7,9 +7,10 @@
         #F89848 75%,  
         #FFCC66 100%  
     );
-    height: 100vh; /* Asegura que ocupe toda la pantalla */
+    height: 100vh; /* ocupe toda la pantalla */
 }
 
+/* Navbar: Paque el dropdown tenga la sombra negra al desplegar */
 .custom-dropdown{
     background: rgba(0, 0, 0, 0.7) !important;
 }
