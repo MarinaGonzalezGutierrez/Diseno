@@ -1,0 +1,23 @@
+/* PARA EL FONDO DE TODA LA PAGINA CON EL DEGRADADO */
+.bg-gradient-custom {
+    background: linear-gradient(to bottom, 
+        #88CCFF 0%,   
+        #D08BC6 25%,  
+        #F6458F 50%,  
+        #F89848 75%,  
+        #FFCC66 100%  
+    );
+    height: 100vh; /* Asegura que ocupe toda la pantalla */
+}
+
+.custom-dropdown{
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.custom-dropdown .dropdown-item {
+    color: white !important;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background: rgba(255, 255, 255, 0.2) !important; /* Un ligero efecto de hover */
+}
