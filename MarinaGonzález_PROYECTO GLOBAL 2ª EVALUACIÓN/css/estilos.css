@@ -7,7 +7,9 @@
         #F89848 75%,  
         #FFCC66 100%  
     );
-    height: 100vh; /* ocupe toda la pantalla */
+    /* height: 100vh;  */
+    /* tipo de letra */
+   
 }
 
 /* Navbar: Paque el dropdown tenga la sombra negra al desplegar */
@@ -21,4 +23,8 @@
 
 .custom-dropdown .dropdown-item:hover {
     background: rgba(255, 255, 255, 0.2) !important; /* Un ligero efecto de hover */
+}
+
+.bg-letraNav-custom{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
