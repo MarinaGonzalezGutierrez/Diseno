@@ -1,3 +1,10 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
 /* PARA EL FONDO DE TODA LA PAGINA CON EL DEGRADADO */
 .bg-gradient-custom {
     background: linear-gradient(to bottom, 
@@ -49,6 +56,13 @@
 /* para tener espacio entre el nav y el carousel */
 .carousel-inner{
     padding-top: 250px;
+}
+
+.bg-footer-custom{
+    z-index: 1000;
+    transition: backdrop-filter 0.3s ease-in-out;
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.4); /* Negro con transparencia */
 }
   
 
