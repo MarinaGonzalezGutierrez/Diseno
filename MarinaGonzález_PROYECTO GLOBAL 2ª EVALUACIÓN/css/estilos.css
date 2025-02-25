@@ -58,12 +58,25 @@
     padding-top: 250px;
 }
 
-.bg-footer-custom{
+.bg-footer-custom {
+    font-family: Monospace;
     z-index: 1000;
     transition: backdrop-filter 0.3s ease-in-out;
     backdrop-filter: blur(8px);
-    background: rgba(0, 0, 0, 0.4); /* Negro con transparencia */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 0, 153, 0.2)); /* Degradado más claro de negro a rosa fucsia */
 }
+
+.footer {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+}
+
+
+
+
+
+
+
   
 
 
