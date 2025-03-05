@@ -76,7 +76,12 @@
 }
 
 /* MARQUEE */
-
+ /* FONDO PARA LA PARTE DE FABRIK */
+ .bg-estrella-custom {
+    background-image: url('../imagenes_video/fondoFabrik.jpeg'); /* Ruta a tu imagen */
+  }
+  
+ 
 
 
 
